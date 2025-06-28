@@ -1,0 +1,138 @@
+Listagem de caminhos de pasta para o volume Acer
+O n�mero de s�rie do volume � FC44-18E3
+C:.
+|   .gitattributes
+|   .gitignore
+|   arvore.txt
+|   HELP.md
+|   LICENSE
+|   mvnw
+|   mvnw.cmd
+|   pom.xml
+|   README.md
+|
++---.mvn
+|   \---wrapper
+|           maven-wrapper.properties
+|
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---br
+|   |   |       \---com
+|   |   |           \---lapes
+|   |   |               \---backend
+|   |   |                   |   BackendApplication.java
+|   |   |                   |
+|   |   |                   +---application
+|   |   |                   |   \---auth
+|   |   |                   |       +---dto
+|   |   |                   |       |       AuthRequestDTO.java
+|   |   |                   |       |       AuthResponse.java
+|   |   |                   |       |       LoginRequest.java
+|   |   |                   |       |       RegisterRequest.java
+|   |   |                   |       |       RegisterRequestDTO.java
+|   |   |                   |       |
+|   |   |                   |       \---service
+|   |   |                   |               AuthService.java
+|   |   |                   |
+|   |   |                   +---domain
+|   |   |                   |   +---enums
+|   |   |                   |   |       UserRole.java
+|   |   |                   |   |
+|   |   |                   |   \---user
+|   |   |                   |           User.java
+|   |   |                   |
+|   |   |                   +---infrastructure
+|   |   |                   |   +---config
+|   |   |                   |   |       CorsConfig.java
+|   |   |                   |   |
+|   |   |                   |   \---repository
+|   |   |                   |           UserRepository.java
+|   |   |                   |
+|   |   |                   \---presentation
+|   |   |                       \---auth
+|   |   \---resources
+|   |       |   application.properties
+|   |       |   application.properties.example
+|   |       |
+|   |       +---static
+|   |       \---templates
+|   \---test
+|       \---java
+|           \---br
+|               \---com
+|                   \---lapes
+|                       \---backend
+|                               BackendApplicationTests.java
+|
+\---target
+    |   backend-0.0.1-SNAPSHOT.jar
+    |   backend-0.0.1-SNAPSHOT.jar.original
+    |
+    +---classes
+    |   |   application.properties
+    |   |   application.properties.example
+    |   |
+    |   \---br
+    |       \---com
+    |           \---lapes
+    |               \---backend
+    |                   |   BackendApplication.class
+    |                   |
+    |                   +---application
+    |                   |   \---auth
+    |                   |       +---dto
+    |                   |       |       AuthRequestDTO.class
+    |                   |       |       AuthResponse.class
+    |                   |       |       LoginRequest.class
+    |                   |       |       RegisterRequest.class
+    |                   |       |       RegisterRequestDTO.class
+    |                   |       |
+    |                   |       \---service
+    |                   |               AuthService.class
+    |                   |
+    |                   +---domain
+    |                   |   +---enums
+    |                   |   |       UserRole.class
+    |                   |   |
+    |                   |   \---user
+    |                   |           User$UserBuilder.class
+    |                   |           User.class
+    |                   |
+    |                   +---infrastructure
+    |                   |   +---config
+    |                   |   |       CorsConfig$1.class
+    |                   |   |       CorsConfig.class
+    |                   |   |
+    |                   |   \---repository
+    |                   |           UserRepository.class
+    |                   |
+    |                   \---presentation
+    |                       \---auth
+    +---generated-sources
+    |   \---annotations
+    +---generated-test-sources
+    |   \---test-annotations
+    +---maven-archiver
+    |       pom.properties
+    |
+    +---maven-status
+    |   \---maven-compiler-plugin
+    |       +---compile
+    |       |   \---default-compile
+    |       |           createdFiles.lst
+    |       |           inputFiles.lst
+    |       |
+    |       \---testCompile
+    |           \---default-testCompile
+    |                   createdFiles.lst
+    |                   inputFiles.lst
+    |
+    \---test-classes
+        \---br
+            \---com
+                \---lapes
+                    \---backend
+                            BackendApplicationTests.class
+                            
