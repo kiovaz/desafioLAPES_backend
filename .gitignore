@@ -1,0 +1,42 @@
+# 🛠️ BUILD E OUTPUT
+/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ☕ Maven Wrapper
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+!mvnw
+!mvnw.cmd
+
+# 🔧 IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 🔧 Eclipse / Spring Tool Suite (STS)
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# 🧪 NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# 🧠 VS Code
+.vscode/
+
+# 🔐 Arquivos sensíveis
+/src/main/resources/application.properties
+
+# 📄 Outros
+HELP.md
